@@ -15,7 +15,8 @@ export default function NavBar() {
     { name: "About", path: "/about" },
     { name: "Cart", path: "/cart" },
     { name: "User Profile", path: "/user-profile" },
-    { name: "Settings", path: "/settings" }
+    { name: "Settings", path: "/settings" },
+    { name: "Purchases", path: "/purchases" }
   ];
 
   const authLinks = user?.id
